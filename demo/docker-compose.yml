@@ -5,3 +5,8 @@ services:
     image: abdelhamidbakhtaconsensys/coopgoods-ganache
     ports:
       - "8545:8545"
+
+  townhall:
+    image: abdelhamidbakhtaconsensys/coopgoods-townhall
+    ports:
+      - "8080:8080"
